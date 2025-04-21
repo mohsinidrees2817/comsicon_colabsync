@@ -19,13 +19,14 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="bg-white">
+    <div className="bg-white dark:bg-black">
+
       <div className="relative isolate px-6 pt-36 lg:px-8">
         <div className="mx-auto max-w-2xl py-24 sm:py-40 lg:py-48 text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
             All-in-one workspace for your team
           </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-white">
             Manage projects, assign tasks, track performance, and communicate seamlessly — all in one platform built for
             modern teams.
           </p>
