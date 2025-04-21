@@ -11,6 +11,7 @@ export default function Home() {
   const { userdetails, theme, toggleTheme } = useGlobalContext();
   console.log(userdetails, "cfafcsfeverv")
 
+  
   useEffect(() => {
 
     // if needed, you can perform async actions here
