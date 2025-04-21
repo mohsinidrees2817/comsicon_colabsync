@@ -2,16 +2,13 @@
 
 import { useEffect } from 'react';
 import Hero from "@/components/hero";
-import ConnectSupabaseSteps from "@/components/tutorial/connect-supabase-steps";
-import SignUpUserSteps from "@/components/tutorial/sign-up-user-steps";
-import { hasEnvVars } from "@/utils/supabase/check-env-vars";
 import { useGlobalContext } from '@/context/Globalcontext';
 
 export default function Home() {
   const { userdetails, theme, toggleTheme } = useGlobalContext();
   console.log(userdetails, "cfafcsfeverv")
 
-  
+
   useEffect(() => {
 
     // if needed, you can perform async actions here
